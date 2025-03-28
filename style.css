@@ -62,7 +62,7 @@ h1 {
 
 .hole:after {
     display: block;
-    background: url(/whack-a-mole/image/dirt.png) bottom center no-repeat;
+    background: url('image/dirt.png') bottom center no-repeat;
     background-size: contain;
     content: '';
     width: 100%;
@@ -73,7 +73,7 @@ h1 {
 }
 
 .mole {
-    background: url('/whack-a-mole/image/mole.png') bottom center no-repeat;
+    background: url('image/mole.png') bottom center no-repeat;
     background-size: 80%;
     position: absolute;
     top: 100%;
