@@ -1,46 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" href="images.png">
-    <link rel="stylesheet" href="style.css">
-    <title>Whack a Mole</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" href="images.png"/>
+  <link rel="stylesheet" href="style.css"/>
+  <title>Whack-a-Mole</title>
 </head>
-
 <body>
-    <h1>Whack-a-mole!</h1><span class="score">0</span>
-    <button onClick="startGame()">Start</button>
+  <div class="mode-toggle">
+    <label class="switch">
+      <input type="checkbox" id="themeToggle">
+      <span class="slider round"></span>
+    </label>
+    <span id="modeLabel">Light Mode</span>
+  </div>
 
-    <div class="game">
-        <div class="hole hole1">
-            <div class="mole"></div>
-        </div>
+  <h1>Whack-a-Mole!</h1>
+  <div class="score-panel">
+    <span class="score-label">Score:</span>
+    <span class="score">0</span>
+    <span class="high-score">🏆 0</span>
+    <span class="timer">⏱️ 60s</span>
+  </div>
+  <button onclick="startGame()">Start Game</button>
 
-        <div class="hole hole2">
-            <div class="mole"></div>
-        </div>
+  <div class="game">
+    <div class="hole hole1"><div class="mole"></div></div>
+    <div class="hole hole2"><div class="mole"></div></div>
+    <div class="hole hole3"><div class="mole"></div></div>
+    <div class="hole hole4"><div class="mole"></div></div>
+    <div class="hole hole5"><div class="mole"></div></div>
+    <div class="hole hole6"><div class="mole"></div></div>
+  </div>
 
-        <div class="hole hole3">
-            <div class="mole"></div>
-        </div>
+  <div class="game-over hidden">
+    <h2>Game Over 🎮</h2>
+    <p>Your final score: <span class="final-score">0</span></p>
+    <button onclick="startGame()">Play Again</button>
+  </div>
 
-        <div class="hole hole4">
-            <div class="mole"></div>
-        </div>
-
-        <div class="hole hole5">
-            <div class="mole"></div>
-        </div>
-
-        <div class="hole hole6">
-            <div class="mole"></div>
-        </div>
-    </div>
-
-    <script src="app.js"></script>
+  <audio id="hitSound" src="pop.mp3" preload="auto"></audio>
+  <script src="app.js"></script>
 </body>
-
 </html>
