@@ -141,6 +141,7 @@ button:hover {
   width: 60px;
   height: 34px;
 }
+
 .switch input { display: none; }
 .slider {
   position: absolute;
