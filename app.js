@@ -45,6 +45,7 @@ function startGame() {
   countdown = setInterval(() => {
     timeLeft--;
     timerDisplay.textContent = `⏱️ ${timeLeft}s`;
+    
     if (timeLeft <= 0) {
       clearInterval(countdown);
       timeUp = true;
