@@ -29,6 +29,7 @@ function peep() {
   const time = randomTime(400, 800);
   const hole = randomHole();
   hole.classList.add('up');
+  
   setTimeout(() => {
     hole.classList.remove('up');
     if (!timeUp) peep();
@@ -45,7 +46,7 @@ function startGame() {
   countdown = setInterval(() => {
     timeLeft--;
     timerDisplay.textContent = `⏱️ ${timeLeft}s`;
-    
+
     if (timeLeft <= 0) {
       clearInterval(countdown);
       timeUp = true;
