@@ -63,3 +63,36 @@ whack-a-mole/
 │ └── pop.mp3 # Click sound effect
 
 └── README.md # Game instructions and description
+
+
+---
+
+## 🛠️ Built With
+
+- 🌐 HTML5
+- 🎨 CSS3 (Modern, Responsive, Animated)
+- 🧠 JavaScript (Vanilla ES6+)
+- 💾 localStorage API
+
+---
+
+## 🧩 Planned Upgrades (You Can Contribute!)
+
+- ⏸️ Pause & Resume Game Feature
+- 👥 Multiplayer Mode (Score Battles)
+- 📊 Leaderboard with top 5 scores
+- 📦 PWA Support (Play Offline)
+- 🌍 Language Switcher (EN, FR, etc.)
+- 🐾 Custom Mole Skins & Themes
+- 🎼 Background Music with Toggle
+- 🧠 AI-assisted game speed increase as you improve
+
+---
+
+## 🚀 Getting Started Locally
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Satyam6201/Whack-a-mole-Game.git
+
