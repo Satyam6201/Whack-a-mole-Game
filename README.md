@@ -44,5 +44,22 @@ This modern version comes with a beautiful UI, dark/light mode toggle, real-time
 
 ## 📂 File Structure
 
+whack-a-mole/
 
-│ └── dirt.png # Dirt hole background
+├── index.html # Main HTML structure
+
+├── style.css # All modern and responsive styles
+
+├── app.js # JavaScript game logic
+
+├── image/
+
+│ ├── mole.png # Mole sprite/image
+
+│ └── dirt.png # Hole/dirt image
+
+├── sound/
+
+│ └── pop.mp3 # Click sound effect
+
+└── README.md # Game instructions and description
