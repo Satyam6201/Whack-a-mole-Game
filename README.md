@@ -43,7 +43,7 @@ This modern version comes with a beautiful UI, dark/light mode toggle, real-time
 ---
 
 ## 📂 File Structure
-
+```
 whack-a-mole/
 
 ├── index.html # Main HTML structure
@@ -64,7 +64,7 @@ whack-a-mole/
 
 └── README.md # Game instructions and description
 
-
+```
 ---
 
 ## 🛠️ Built With
