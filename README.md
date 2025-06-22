@@ -95,3 +95,4 @@ whack-a-mole/
 
 ```bash
 git clone https://github.com/Satyam6201/Whack-a-mole-Game.git
+```
