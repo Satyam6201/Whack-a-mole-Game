@@ -37,6 +37,16 @@
 🔗 **[Live Demo](https://whack-a-mole-game-one.vercel.app/)**
 
 ---
-
+```
 ## 📁 Folder Structure
 
+Whack-a-mole-Game/
+│
+├── index.html # Main HTML structure
+├── style.css # All game UI styles (dark mode, grid, buttons, etc.)
+├── app.js # Game logic, timer, score, events, audio, etc.
+├── bg-music.mp3 # Background game music
+├── pop.mp3 # Mole hit sound
+├── images.png # Favicon icon
+└── README.md # Project description and features
+```
