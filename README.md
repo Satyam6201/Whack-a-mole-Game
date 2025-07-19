@@ -37,6 +37,7 @@
 🔗 **[Live Demo](https://whack-a-mole-game-one.vercel.app/)**
 
 ---
+
 ```
 ## 📁 Folder Structure
 
