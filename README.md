@@ -77,7 +77,7 @@ Whack-a-mole-Game/
 ## 📸 Screenshots
 
 <img width="691" height="777" alt="image" src="https://github.com/user-attachments/assets/8b67f0da-4aa2-4548-ac9e-1010bccc6a23" />
-![Uploading image.png…]()
+<img width="947" height="835" alt="Screenshot 2025-07-19 233339" src="https://github.com/user-attachments/assets/ca5e0235-eb53-4087-861c-cb4a93b33629" />
 ![Uploading image.png…]()
 
 
