@@ -76,10 +76,14 @@ Whack-a-mole-Game/
 
 ## 📸 Screenshots
 
-<img width="691" height="777" alt="image" src="https://github.com/user-attachments/assets/8b67f0da-4aa2-4548-ac9e-1010bccc6a23" />
-<img width="947" height="835" alt="Screenshot 2025-07-19 233339" src="https://github.com/user-attachments/assets/ca5e0235-eb53-4087-861c-cb4a93b33629" />
-<img width="1461" height="836" alt="Screenshot 2025-07-19 233244" src="https://github.com/user-attachments/assets/6c4d4589-2193-41c5-9937-ad2e7a054b6a" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ca5e0235-eb53-4087-861c-cb4a93b33629" alt="Screenshot 1" width="45%" style="margin: 10px;" />
+  <img src="https://github.com/user-attachments/assets/6c4d4589-2193-41c5-9937-ad2e7a054b6a" alt="Screenshot 2" width="45%" style="margin: 10px;" />
+</p>
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8b67f0da-4aa2-4548-ac9e-1010bccc6a23" alt="Screenshot 3" width="30%" style="margin: 10px;" />
+</p>
 
 ---
 
