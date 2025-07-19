@@ -51,8 +51,6 @@ Whack-a-mole-Game/
 ├── images.png # Favicon icon
 └── README.md # Project description and features
 ```
----
-
 
 ---
 
