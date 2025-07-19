@@ -5,9 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="icon" href="images.png"/>
   <link rel="stylesheet" href="style.css"/>
-  <title>Whack-a-Mole</title>
+  <title>Whack-a-Mole - Advanced</title>
 </head>
 <body>
+  <!-- 🌗 Dark Mode Switch -->
   <div class="mode-toggle">
     <label class="switch">
       <input type="checkbox" id="themeToggle">
@@ -16,16 +17,31 @@
     <span id="modeLabel">Light Mode</span>
   </div>
 
-  <h1>Whack-a-Mole!</h1>
-  
+  <h1>🎯 Whack-a-Mole!</h1>
+
+  <!-- 🎮 Game Controls -->
+  <div class="controls">
+    <label for="difficulty">Difficulty:</label>
+    <select id="difficulty">
+      <option value="easy">Easy</option>
+      <option value="medium" selected>Medium</option>
+      <option value="hard">Hard</option>
+    </select>
+
+    <button onclick="startGame()">Start Game</button>
+    <button id="pauseBtn">Pause</button>
+  </div>
+
+  <!-- 📊 Score Panel -->
   <div class="score-panel">
     <span class="score-label">Score:</span>
     <span class="score">0</span>
     <span class="high-score">🏆 0</span>
+    <span class="misses">❌ 0</span>
     <span class="timer">⏱️ 60s</span>
   </div>
-  <button onclick="startGame()">Start Game</button>
 
+  <!-- 🕹️ Game Grid -->
   <div class="game">
     <div class="hole hole1"><div class="mole"></div></div>
     <div class="hole hole2"><div class="mole"></div></div>
@@ -35,14 +51,36 @@
     <div class="hole hole6"><div class="mole"></div></div>
   </div>
 
+  <!-- 💥 Game Over Popup -->
   <div class="game-over hidden">
-    <h2>Game Over 🎮</h2>
+    <h2>🎮 Game Over</h2>
     <p>Your final score: <span class="final-score">0</span></p>
     <button onclick="startGame()">Play Again</button>
   </div>
 
-  <audio id="hitSound" src="pop.mp3" preload="auto"></audio>
+  <!-- 🏁 Pre-game Countdown (hidden by default) -->
+  <div class="countdown hidden">
+    <h2 id="countdownText">3</h2>
+  </div>
 
+  <!-- 🏆 Leaderboard -->
+  <div class="leaderboard">
+    <h3>🏆 Top 5 Scores</h3>
+    <ol id="leaderboardList"></ol>
+    <button onclick="resetLeaderboard()">Reset Leaderboard</button>
+  </div>
+
+  <!-- 🔊 Audio Control -->
+  <div class="audio-control">
+    <button id="toggleMusic">🔊 Music</button>
+    <input type="range" id="volumeSlider" min="0" max="1" step="0.1" value="1">
+  </div>
+
+  <!-- 🔈 Audio Files -->
+  <audio id="hitSound" src="pop.mp3" preload="auto"></audio>
+  <audio id="bgMusic" src="bg-music.mp3" preload="auto" loop></audio>
+
+  <!-- 📜 JavaScript -->
   <script src="app.js"></script>
 </body>
 </html>
