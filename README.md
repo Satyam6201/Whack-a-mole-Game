@@ -76,7 +76,7 @@ Whack-a-mole-Game/
 
 ## 📸 Screenshots
 
-> Add screenshots in this section (optional)
+![Uploading image.png…]()
 
 ---
 
