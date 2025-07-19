@@ -1,10 +1,6 @@
 <h1 align="center">🎯 Advanced Whack-a-Mole Game</h1>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/your-demo-image-link" alt="Whack-a-Mole Demo" width="700"/>
-</p>
-
-<p align="center">
   <b>A fun, fast-paced and interactive browser game built using HTML, CSS & JavaScript with modern UI and advanced gameplay features!</b>
 </p>
 
