@@ -77,6 +77,8 @@ Whack-a-mole-Game/
 ## 📸 Screenshots
 
 ![Uploading image.png…]()
+![Uploading image.png…]()
+
 
 ---
 
