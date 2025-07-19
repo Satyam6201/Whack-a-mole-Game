@@ -50,3 +50,47 @@ Whack-a-mole-Game/
 ├── images.png # Favicon icon
 └── README.md # Project description and features
 ```
+---
+
+
+---
+
+## 🧠 How It Works
+
+- The game grid has 6 holes where moles randomly appear.
+- Player must click the mole as fast as possible before it disappears.
+- Speed varies with difficulty level.
+- Timer starts from 60 seconds.
+- Sound and visuals enhance engagement.
+- Dark Mode and leaderboard make it more personalized and competitive.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** HTML5, CSS3, JavaScript ES6
+- **Audio:** HTML5 `<audio>` API
+- **Storage:** LocalStorage for scores and theme persistence
+
+---
+
+## 📸 Screenshots
+
+> Add screenshots in this section (optional)
+
+---
+
+## ✨ Author
+
+Made with ❤️ by [Satyam Kumar Mishra](https://www.linkedin.com/in/satyam-kumar-mishra-9bb980291/)
+
+📬 Reach out to me via [LinkedIn](https://www.linkedin.com/in/satyam-kumar-mishra-9bb980291/)  
+🔗 GitHub: [Satyam6201](https://github.com/Satyam6201)
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.  
+Feel free to fork, use, and share with credit.
+
