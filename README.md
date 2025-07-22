@@ -93,10 +93,4 @@ Made with ❤️ by [Satyam Kumar Mishra](https://www.linkedin.com/in/satyam-kum
 📬 Reach out to me via [LinkedIn](https://www.linkedin.com/in/satyam-kumar-mishra-9bb980291/)  
 🔗 GitHub: [Satyam6201](https://github.com/Satyam6201)
 
----
-
-## 📜 License
-
-This project is licensed under the MIT License.  
-Feel free to fork, use, and share with credit.
 
